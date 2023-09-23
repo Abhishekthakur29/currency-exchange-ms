@@ -1,0 +1,5 @@
+package com.abhiTech.limitservice.bean;
+
+public class Limits {
+
+}

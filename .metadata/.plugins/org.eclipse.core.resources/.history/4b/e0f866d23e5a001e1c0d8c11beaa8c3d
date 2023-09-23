@@ -1,0 +1,5 @@
+package com.abhiTech.currencyConversionMS.bean;
+
+public class CurrencyConversionBean {
+
+}

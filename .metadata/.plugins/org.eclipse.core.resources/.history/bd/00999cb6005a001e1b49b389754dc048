@@ -1,0 +1,1 @@
+spring.cloud.config.import=Optional:configserver:htt://localhost:8888

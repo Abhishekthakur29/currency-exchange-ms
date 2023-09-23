@@ -1,0 +1,3 @@
+spring.application.name=currency-exchange-service
+#spring.config.import=optional:configserver:Entry
+server.port=8000

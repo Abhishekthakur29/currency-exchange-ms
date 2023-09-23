@@ -1,0 +1,15 @@
+package com.abhiTech.limitservice.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.abhiTech.limitservice.bean.Limits;
+
+@RestController
+public class AppController {
+
+	@GetMapping("get-limits")
+	public Limits getLimits() {
+		return new Limits(12, 1209);
+	}
+}

@@ -1,0 +1,5 @@
+package com.abhiTech.currencyExchange.repostory;
+
+public interface CurrencyExchangeRepo {
+
+}

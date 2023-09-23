@@ -1,0 +1,5 @@
+package com.abhiTech.currencyConversionMS.currencyExchangeProxy;
+
+public interface CurrencyExchangeProxy {
+
+}

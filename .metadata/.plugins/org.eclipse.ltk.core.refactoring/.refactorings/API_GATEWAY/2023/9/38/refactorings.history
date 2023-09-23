@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Inline local variable &apos;com.abhiTech.microservice.ApiGateWayConfiguration.gatewayRouter(...).routefunction&apos; in &apos;com.abhiTech.microservice.ApiGateWayConfiguration.gatewayRouter(...)&apos;&#x0D;&#x0A;- Original project: &apos;API_GATEWAY&apos;&#x0D;&#x0A;- Original element: &apos;com.abhiTech.microservice.ApiGateWayConfiguration.gatewayRouter(...).routefunction&apos;" description="Inline local variable &apos;routefunction&apos;" id="org.eclipse.jdt.ui.inline.temp" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.abhiTech.microservice{ApiGateWayConfiguration.java" selection="914 0" stamp="1695502816108" version="1.0"/>
+</session>

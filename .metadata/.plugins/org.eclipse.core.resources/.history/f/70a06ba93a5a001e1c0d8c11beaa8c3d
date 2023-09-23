@@ -1,0 +1,6 @@
+package com.abhiTech.currencyExchange.exception;
+
+public class NoSuchDataFound  extends RuntimeException {
+	
+
+}

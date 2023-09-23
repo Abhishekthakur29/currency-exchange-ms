@@ -1,0 +1,5 @@
+package com.abhiTech.limitservice.ConfigApp;
+
+public class ConfigLimits {
+
+}
