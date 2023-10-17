@@ -1,9 +1,0 @@
-package com.abhiTech.currencyExchange.repostory;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-import com.abhiTech.currencyExchange.bean.CurrencyExchange;
-
-public interface CurrencyExchangeRepo extends JpaRepository<CurrencyExchange, Long> {
-
-}
