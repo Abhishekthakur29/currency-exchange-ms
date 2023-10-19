@@ -53,9 +53,10 @@ public class HotelRatingServiceImpl implements HotelRatingService {
 	@Override
 	public HotelRatingBean updateHotelRating(String id, HotelRatingBean hotelRatingBean) {
 		HotelRatingBean rating = commonfindbyId(id).get();
-		rating.setHotelAddress(hotelRatingBean.getHotelAddress());
-		rating.setHotelName(hotelRatingBean.getHotelName());
-		rating.setHotelRating(hotelRatingBean.getHotelRating());
+		rating.setHotel_id(hotelRatingBean.getHotel_id());
+		rating.setHotelFeedback(hotelRatingBean.getHotelFeedback());
+		rating.setUser_id(hotelRatingBean.getUser_id());
+		rating.setRating(hotelRatingBean.getRating());
 		hotelRatingRepository.save(rating);
 		return rating;
 	}

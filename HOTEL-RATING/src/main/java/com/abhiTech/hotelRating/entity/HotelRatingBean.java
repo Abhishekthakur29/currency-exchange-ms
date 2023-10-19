@@ -19,9 +19,9 @@ import lombok.ToString;
 @Document(collection = "Hotel_Rating")
 public class HotelRatingBean {
 	@Id
-	private String id;
-	private String hotelName;
-	private String hotelAddress;
-	private String hotelRating;
+	private String rating_id;
+	private String hotel_id;
+	private String user_id;
+	private double rating;
 	private String hotelFeedback;
 }
