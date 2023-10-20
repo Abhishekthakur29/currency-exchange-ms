@@ -11,9 +11,8 @@ import lombok.Setter;
 @Setter
 @Entity
 public class Hotel {
-
 	@Id
-	private String hotel_id;
+	private String hotelId;
 	private String hotel_Address;
 	private String hotel_name;
 	private String hotel_desc;

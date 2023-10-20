@@ -16,11 +16,15 @@ public class HotelService {
 	private HotelRepo hotelRepo;
 	
 	public Hotel createHotel(Hotel hotel) {
-		hotel.setHotel_id(UUID.randomUUID().toString());
+		hotel.setHotelId(UUID.randomUUID().toString());
 		return hotelRepo.save(hotel);
 	}
 	
 	public List<Hotel> getAllHotel() {
 		return hotelRepo.findAll();
+	}
+	
+	public Hotel getHotelById(String id) {
+		return hotelRepo.findById(id).get();
 	}
 }

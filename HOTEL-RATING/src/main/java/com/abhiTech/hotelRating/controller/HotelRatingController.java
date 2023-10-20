@@ -33,7 +33,7 @@ public class HotelRatingController {
 	}
 
 	@GetMapping("get-hotel/rating/{id}")
-	public HotelRatingBean getratingById(@PathVariable String id) {
+	public List<HotelRatingBean> getRatingById(@PathVariable String id) {
 		return hotelRatingServiceImpl.getHotelRatingById(id);
 	}
 
